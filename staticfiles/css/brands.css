@@ -1,0 +1,79 @@
+
+.con{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(4 ,1fr);
+    background-color: rgba(64, 70, 70, 0.062);
+
+    }
+    @media (max-width: 768px){
+        .con{
+            grid-template-columns: repeat(2 ,1fr);}
+    } 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul    {padding-inline-start: 0px}
+.list-container{
+    padding-top: 40px;
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    justify-content: right;
+}
+.list-container :nth-child(even){
+    background-color: rgba(36, 122, 180, 0.055);
+    
+
+}
+
+.list-link{
+    color: rgb(46, 42, 42);
+    text-decoration: none;
+    font-size: 0.8em;
+    word-spacing: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.list-li{
+
+    list-style: none;
+    line-height: 50px;
+    padding-left: 20px;
+   
+    
+}
+.flexed{
+    
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.container-box{
+    padding-top: 10px;
+justify-content: center;
+align-content: center;
+}
+.letter-box{
+    text-align: center;
+    margin:3px auto;
+   
+padding: 1px;
+}
+.letters{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.letter{
+    background-color: rgba(128, 128, 128, 0.144);
+    padding: 5px; margin: 1px;
+    border-radius: 3px;
+}
+.letter_link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+}
